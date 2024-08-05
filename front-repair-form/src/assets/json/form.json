@@ -1,0 +1,169 @@
+{
+  "question": "Où se situe votre problème ?",
+  "name": "plomberie",
+  "anwsers": [
+    {
+      "name": "WC",
+      "question": "Quelle est la nature de votre problème ?",
+      "anwsers": [
+        {
+          "name": "Engorgement (WC bouchés)",
+          "question": "Quel type de WC possédez-vous ?",
+          "anwsers": [{ "name": "WC simple" }, { "name": "WC suspendu" }, { "name": "Autre" }]
+        },
+        {
+          "name": "Fuite (recherche de fuite)",
+          "question": "Quel type de WC possédez-vous ?",
+          "anwsers": [{ "name": "WC simple" }, { "name": "WC suspendu" }, { "name": "Autre" }]
+        },
+        {
+          "name": "Problème de fonctionnement (cuvette...)",
+          "question": "Quel type de WC possédez-vous ?",
+          "anwsers": [{ "name": "WC simple" }, { "name": "WC suspendu" }, { "name": "Autre" }]
+        },
+        {
+          "name": "Changement de WC",
+          "question": "Quel type de WC possédez-vous ?",
+          "anwsers": [{ "name": "WC simple" }, { "name": "WC suspendu" }, { "name": "Autre" }]
+        }
+      ]
+    },
+    {
+      "name": "Lavabo",
+      "question": "Quelle est la nature de votre problème ?",
+      "anwsers": [
+        {
+          "name": "Engorgement (lavabo / évier bouché)",
+          "question": "Votre lavabo possède-t-il un sanispeed ?",
+          "anwsers": [{ "name": "Oui" }, { "name": "Non" }]
+        },
+        {
+          "name": "Fuite / robinetterie",
+          "question": "D’où coule l’eau ?",
+          "anwsers": [
+            { "name": "Autour du robinet" },
+            { "name": "Directement du robinet" },
+            { "name": "Au niveau du siphon" },
+            { "name": "Au niveau des flexibles" }
+          ]
+        },
+        {
+          "name": "Autre",
+          "question": "Voulez-vous effectuer ?",
+          "anwsers": [
+            { "name": "Changement de lavabo / évier" },
+            { "name": "Installation d'un robinet" },
+            { "name": "Autre" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Douche",
+      "question": "Quelle est la nature de votre problème ?",
+      "anwsers": [
+        {
+          "name": "Engorgement de douche (bouchée)"
+        },
+        {
+          "name": "Engorgement de baignoire (bouchée)"
+        },
+        {
+          "name": "Fuite de douche",
+          "question": "D’où coule l’eau ?",
+          "anwsers": [
+            { "name": "Du robinet" },
+            { "name": "Du tuyau d’évacuation (sous la douche)" },
+            { "name": "Inconnu" }
+          ]
+        },
+        {
+          "name": "Fuite de baignoire",
+          "question": "D’où coule l’eau ?",
+          "anwsers": [
+            { "name": "Du robinet" },
+            { "name": "Du tuyau d’évacuation" },
+            { "name": "Inconnu" }
+          ]
+        },
+        {
+          "name": "Autre",
+          "question": "Voulez-vous effectuer ?",
+          "anwsers": [
+            { "name": "Installation de bac à douche" },
+            { "name": "Installation de baignoire" },
+            { "name": "Autre problème avec la douche" },
+            { "name": "Autre problème avec la baignoire" },
+            { "name": "Réfection des joints de la douche / baignoire" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Colonne générale d'immeuble"
+    },
+    {
+      "name": "Tuyauterie",
+      "question": "Vous avez une fuite au niveau ?",
+      "anwsers": [
+        {
+          "name": "D'un tuyau d’évacuation (tuyau PVC)"
+        },
+        {
+          "name": "De la vanne d’entrée"
+        },
+        {
+          "name": "D'un autre tuyau"
+        },
+        {
+          "name": "Je ne vois pas (recherche d'une fuite)",
+          "question": "Quel type de recherche de fuite souhaitez-vous ?",
+          "anwsers": [
+            { "name": "Recherche de fuite simple" },
+            { "name": "Recherche de fuite encastrée" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chaudière",
+      "question": "Quel est votre besoin ?",
+      "anwsers": [
+        {
+          "name": "Réparation d'une panne",
+          "question": "Votre problème est lié ?",
+          "anwsers": [
+            { "name": "Au chauffage" },
+            { "name": "À l'eau chaude" },
+            { "name": "Au chauffage et à l'eau chaude" }
+          ]
+        },
+        {
+          "name": "Souscription d'un contrat d'entretien"
+        },
+        {
+          "name": "Réparation d'une fuite du ballon d'eau chaude"
+        },
+        {
+          "name": "Autre"
+        },
+        {
+          "name": "Installation",
+          "question": "Quel objet est concerné par votre demande ?",
+          "anwsers": [
+            { "name": "Chaudière" },
+            { "name": "Chauffe-eau / chauffe-bain" },
+            { "name": "Ballon d'eau chaude" },
+            { "name": "Radiateur électrique / sèche-serviettes" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tuyau de la machine à laver / du lave-vaisselle"
+    },
+    {
+      "name": "Autre"
+    }
+  ]
+}
